@@ -45,7 +45,10 @@ for (let i = arr.length - 1; i >= 0; i--) arr[ i ].idx = i
 
 console.log("Before sort:", arr.map(el => el.box.readProposedOrPrevious()))
 
-// reading from right to left - important
-for (let i = arr.length - 1; i >= 0; i--) arr[ i ].box.read()
+const result = new Array(size)
 
-console.log("After sort:", arr.map(el => el.box.read()))
+// reading from right to left - important
+for (let i = arr.length - 1; i >= 0; i--) result[ i ] = arr[ i ].box.read()
+
+console.log("After sort:", result)
+console.log("Sorted: ", result.every((el, i) => i === 0 ? true : el > result[ i - 1 ]))

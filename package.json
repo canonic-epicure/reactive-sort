@@ -1,0 +1,28 @@
+{
+  "name": "reactive-sort",
+  "version": "0.0.1",
+  "description": "Reactive sorting",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "homepage": "https://github.com/canonic-epicure/chained-iterator",
+  "bugs": "https://github.com/canonic-epicure/chained-iterator/issues",
+  "repository": "git@github.com:canonic-epicure/chained-iterator.git",
+  "scripts": {
+    "test": "node ./tests/index.js"
+  },
+  "keywords": [
+    "chained",
+    "iterator",
+    "typescript"
+  ],
+  "author": "Nickolay Platonov",
+  "license": "MIT",
+  "dependencies": {
+      "@bryntum/chronograph": "2.0.3"
+  },
+  "devDependencies": {
+    "typescript": "5.1.6",
+    "@bryntum/siesta": "6.0.0-alpha-3"
+  }
+}

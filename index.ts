@@ -10,6 +10,7 @@ const arr = new Array(size).fill(0).map((_, i) => {
             if (el.idx === 0) return ownValue
 
             const predecessor       = arr[ el.idx - 1 ].box
+            // returns the biggest value from all predecessors actually
             const predecessorValue  = predecessor.read()
 
             // if predecessor is greater

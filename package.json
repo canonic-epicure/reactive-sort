@@ -22,7 +22,6 @@
       "@bryntum/chronograph": "2.0.3"
   },
   "devDependencies": {
-    "typescript": "5.1.6",
-    "@bryntum/siesta": "6.0.0-alpha-3"
+    "typescript": "5.1.6"
   }
 }

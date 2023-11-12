@@ -1,0 +1,54 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@bryntum/chronograph': 2.0.3
+  typescript: 5.1.6
+
+dependencies:
+  '@bryntum/chronograph': 2.0.3
+
+devDependencies:
+  typescript: 5.1.6
+
+packages:
+
+  /@bryntum/chronograph/2.0.3:
+    resolution: {integrity: sha512-odEaULPY+AIUxPKBTE744mlgojUQ7ucAgg698u1CAALau8WNHxwouJFy5Kd4G99/tWvwq8dLsYwVSU6eIiLGzA==}
+    dependencies:
+      chained-iterator: 0.0.4
+      esm: 3.2.25
+      tslib: 2.6.1
+      typescript-mixin-class: 0.0.3
+      typescript-serializable-mixin: 0.0.3
+    dev: false
+
+  /chained-iterator/0.0.4:
+    resolution: {integrity: sha512-8h7NyNPRZaZu0X15AppReENuAC3gJwH4qBIdHXbn+6l06dpkdxCIutuiNea/obHBIDBSTbhMf8vA7uE5x8zqRw==}
+    dev: false
+
+  /esm/3.2.25:
+    resolution: {integrity: sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==}
+    engines: {node: '>=6'}
+    dev: false
+
+  /tslib/2.6.1:
+    resolution: {integrity: sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==}
+    dev: false
+
+  /typescript-mixin-class/0.0.3:
+    resolution: {integrity: sha512-3565peRmMGyldCD5qS53t8/y0Yez1w0sQp68X2mAAKxSE2sL2iwwsTd3B7p4c33AvXosntLjrS0s+jr8jse3LQ==}
+    dependencies:
+      chained-iterator: 0.0.4
+    dev: false
+
+  /typescript-serializable-mixin/0.0.3:
+    resolution: {integrity: sha512-vjs0J5pk5N/hwFgEaOvQ/RhVYRFKJ/Zv5dPdqkavJg7EMuXRKNbkAQbCt9KGEPLZRtkTKbqhKooPrk13gR8Svw==}
+    dependencies:
+      typescript-mixin-class: 0.0.3
+    dev: false
+
+  /typescript/5.1.6:
+    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
